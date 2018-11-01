@@ -1,4 +1,8 @@
 @media screen and (max-width: 576px) {
+    .img-top-two{
+        display: none;
+    }
+
     .bg-form{
         padding: 40px 0px;
     }
@@ -56,7 +60,7 @@
     }
 
     .service-box{
-        height: 230px;
+        height: 250px;
         width: 80%;
         background-color: white;
         margin:0 10% 10% 10%;
@@ -68,7 +72,7 @@
     }
 
     .inner-service{
-        height: 155px;
+        height: 175px;
     }
 
 
@@ -285,7 +289,7 @@
     }
 
     .service-box{
-        height: 250px;
+        height: 260px;
         width: 100%;
         background-color: white;
         margin-bottom: 10%;
@@ -297,7 +301,7 @@
     }
 
     .inner-service{
-        height: 175px;
+        height: 185px;
     }
 }
 
@@ -312,7 +316,7 @@
     }
 
     .service-box{
-        height: 250px;
+        height: 260px;
         width: 100%;
         background-color: white;
         margin-bottom: 10%;
@@ -324,7 +328,7 @@
     }
 
     .inner-service{
-        height: 175px;
+        height: 185px;
     }
 }
 

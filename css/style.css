@@ -78,13 +78,13 @@
 
 /*************************MENU***************************/
 .img-responsive{
-    margin-top: 65px;
+    margin-top: 35px;
     height: 550px;
     width: 100%;
 }
 
 .partners{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .triangle-logo{
@@ -94,8 +94,8 @@
 }
 
 .logo-responsive{
-    height: 35px;
-    width: 83px;
+    height: 45px;
+    width: 90px;
     /*margin-right: 10px;*/
 }
 
@@ -217,6 +217,10 @@
     color: #4eadff;
 }
 
+.service-box:hover .service-img-res{
+    background-color: #4eadff;
+}
+
 /****************************PACKAGES***********************/
 .bg-packages{
     min-height: 980px;
@@ -281,9 +285,9 @@
     filter: blur(4px);
 }
 
-.pack:hover{
-    filter: blur(0px);
-}
+/*.pack:hover{*/
+    /*filter: blur(0px);*/
+/*}*/
 
 /*.image{*/
     /*background-image: url("../images/packages/btn.png");*/
@@ -540,12 +544,22 @@ select:focus,select:active {
     font-size: 18px;
     padding-top: 10px;
     /*margin:auto;*/
-    background-image: linear-gradient(to right,  #4eadff,  #61dbff,  #047ce3, #4eadff);
+    background-image: linear-gradient(to right,  #4eadff,  #61dbff);
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 
 .btn-reges:hover{
     color: white;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    /*background-image: linear-gradient(to right,#61dbff,  #4eadff);*/
+    background-image: linear-gradient(to right,  #4eadff,  #61dbff,  #047ce3, #4eadff);
 }
 
 
@@ -577,10 +591,16 @@ select:focus,select:active {
 
 .btn-query{
     height: 55px;
-    border-radius: 10px;
+    width: 175px;
+    border-radius: 25px;
     background-color: #4eadff;
     font-size: 18px;
-    font-family: titillium;
+    font-family: railway;
     color: white;
+    text-align: center;
 }
 
+.service-img-res{
+    height: 100px;
+    width: 100px;
+}
